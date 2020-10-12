@@ -29,7 +29,7 @@
   },
   "scripts": {
     "webpack": "webpack -wd",
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "--exec babel-node src/server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
