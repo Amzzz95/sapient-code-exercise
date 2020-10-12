@@ -33,8 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "webpack": "webpack -wd",
-    "dev": "nodemon --exec babel-node src/server.js",
-    "heroku-postbuild": "webpack -wd --prod"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
