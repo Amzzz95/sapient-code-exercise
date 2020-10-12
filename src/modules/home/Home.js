@@ -40,7 +40,7 @@ const Home = props => {
         window.history.replaceState(null, null, "/");
     };
 
-    const finalData = (typeof window !== "undefined" && window.__PRELOADED_STATE__) || filteredData;
+    const finalData = (isFilterChanged && filteredData) || (typeof window !== "undefined" && window.__PRELOADED_STATE__) || [];
 
     return (
         <Row className="mt-5">
